@@ -12,6 +12,7 @@
 
 body {
   font-family: 'Poppins';
+  overflow-x: hidden;
 }
 
 .wrap {
@@ -27,10 +28,11 @@ body {
 }
 
 .banner {
-  background-image: url('/imagens/Banner-1.png');
+  display: flex;
+  justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 278px;
+  height: 370px;
 }
 
 .nav {
